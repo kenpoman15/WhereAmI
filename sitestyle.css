@@ -1,0 +1,192 @@
+/* BASIC HTML */
+head
+{
+    font-family: "Trebuchet MS";
+}
+body
+{
+    font-family: Calibri, Arial, "Trebuchet MS";
+    margin-top: 100px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+/* RA Alert Banner */
+#RAalert
+{
+    position: fixed;
+    width: 100%;
+    left: 0px;
+    top: 50px;
+    height: 50px;
+    z-index: 1;
+    background: linear-gradient(#ccc, #a6a6a6 ,#ccc) 
+}
+
+#RAalert p
+{
+    color: #f00;
+    text-align: center;
+    font-weight: bold;
+    font-size: 13pt;    
+}
+
+/* Headers and Footers */
+.footer
+{
+    position: fixed;
+    width: 100%;
+    height: 5%;
+    left: 0px;
+    bottom: 0px;
+    
+    background-color: #4d4d4d;
+    
+    text-align: center;
+    font-weight: bold;
+    line-height: 50px;
+}
+.footer span
+{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Navigation Bar */
+#navbar
+{
+    position: fixed;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    background-color: #f00;
+    z-index: 1;
+}
+        
+.navheader
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;   
+}
+            
+.sitelinklist { float: left; }
+        
+.loginlinklist { float: right; }
+        
+.sitelinks
+{
+    font-family: Calibri;
+    color: #fff;
+    display:block;
+    color: #000000;
+    text-align:center;
+    text-decoration: none;
+    padding:15px;
+}
+     
+li .sitelinks:hover { background-color: #c00; }
+.sitelinks:link    { color: #fff; }
+.sitelinks:visited { color: #fff; }
+.sitelinks:active  { color: #0066ff }
+
+/* Search bar */
+#search
+{
+    margin: 4px 5px 4px 5px; 
+}
+.searchbox
+{
+    margin: 10px 5px 10px 5px; 
+}
+
+/* Main body div */  
+#mainContent
+{
+    float: left;
+    height: 95%;
+    width: 73%;
+    
+    padding: 10px 10px 10px 10px;
+}
+
+#leftPanel
+{
+    float: left;
+    height: 95%;
+    width: 21%;
+    background-color: #f2f2f2;
+}
+
+#rightPanel
+{
+    
+}
+
+/* Location div */
+#location
+{
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+    height: 15%;
+    
+    border-radius: 5px;
+}
+
+#location p
+{
+    font-weight: bold;
+    text-align: center;
+}
+
+#faq
+{
+    padding: 5% 5% 5% 5%;    
+}
+
+.faqlinks
+{
+    font-family: Calibri;
+    display:block;
+    text-decoration: none;
+
+    margin-bottom: 20px;
+}
+     
+.faqlinks:hover
+{
+    border-left: 3px solid #000;
+    background-color: #d9d9d9;
+    padding-left: 3px;
+}
+.faqlinks:link    { color: #00f; }
+.faqlinks:visited { color: #f0f; }
+.faqlinks:active  { color: #0066ff }
+/*
+button
+{
+    font-family: Calibri;
+}
+/* TABLE ATTRIBUTES 
+table { border-collapse: collapse; }
+th { background-color: #c00; }
+tr:nth-child(even) { background-color: white; }
+tr:nth-child(odd) { background-color: #e6e6e6; }
+td { padding: 5px; }
+        
+.tablebutton
+{
+    background-color: #e7e7e7;
+    border: 1px solid;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.tablebutton:hover { background-color:#bfbfbf; }
+*/
